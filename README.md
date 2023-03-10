@@ -1,6 +1,6 @@
 # OSINT-x-CURP
 
-This tool retrieves data from the CURP RENAPO API, a mexican goverment dependency which deals with mexican citizens identity docs, This script is one of the few OSINT tools non-USA focused in order to retrieve and verify data in the OSINT investigations context. Uses python's requests library and a config.json file containing your API keys managed by CURP RENAPO managed RapidAPI.com, points of data obtained aid to validate a mexican citizen identity for OSINT research purposes applied to Missing Persons cases, Fraud prevention and Identity theft investigations.
+This tool retrieves data from the CURP RENAPO API, a mexican goverment dependency which deals with mexican citizens identity docs. This script is one of the few non-USA-focused-OSINT tools, designed to retrieve and verify data in the OSINT investigations context. Uses python's requests library and a config.json file containing your API keys managed by CURP RENAPO available at RapidAPI.com, data points obtained aid to validate a mexican citizen identity for OSINT research purposes, applied to missing person cases, fraud prevention and identity theft investigations.
 
 ## Prerequisites
 
@@ -47,4 +47,4 @@ python3 OSINT-x-CURP.py -h
 
 The script will send a GET request to the CURP API using the specified CURP and your RapidAPI key from the config.json file.
 If the request is successful, the script will print the data returned by the API. Otherwise, it will print an error message with the status code.
-The results print the data returned by the API in json format. The points of data retrieved are the following: birthdate, curp, entity_birth, homonimo, mothers_maiden_name, names, nationality, paternal_surname, probation_document, probation_document_data, anioReg, crip, cveEntidadEmisora, cveMunicipioReg, foja, folioCarta, libro, numActa, numEntidadReg, numRegExtranjeros, tomo, renapo_valid, sex, status_curp, RCN and transaction_id.
+The results print the data returned in json format. The data points retrieved are the following: birthdate, curp, entity_birth, homonimo, mothers_maiden_name, names, nationality, paternal_surname, probation_document, probation_document_data, anioReg, crip, cveEntidadEmisora, cveMunicipioReg, foja, folioCarta, libro, numActa, numEntidadReg, numRegExtranjeros, tomo, renapo_valid, sex, status_curp, RCN and transaction_id.
