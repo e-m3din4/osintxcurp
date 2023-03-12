@@ -1,4 +1,5 @@
-# OSINT-x-CURP
+# OSINT MX 
+## OSINT x CURP
 
 This tool retrieves data from the CURP RENAPO API, a mexican goverment dependency which deals with mexican citizens identity docs. This script is one of the few non-USA-focused-OSINT tools, designed to retrieve and verify data in the OSINT investigations context. Uses python's requests library and a config.json file containing your API keys managed by CURP RENAPO available at RapidAPI.com, data points obtained aid to validate a mexican citizen identity for OSINT research purposes, applied to missing person cases, fraud prevention and identity theft investigations.
 
